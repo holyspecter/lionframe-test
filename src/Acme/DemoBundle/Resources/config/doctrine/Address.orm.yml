@@ -1,0 +1,29 @@
+Acme\DemoBundle\Entity\Address:
+    type: entity
+    table: null
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        title:
+            type: string
+            length: 255
+        street:
+            type: string
+            length: 255
+        houseNumber:
+            type: string
+            length: 255
+        postalCode:
+            type: string
+            length: 255
+        city:
+            type: string
+            length: 255
+        country:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
